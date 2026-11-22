@@ -1,0 +1,14 @@
+{
+  "name": "Android LanShare",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "mathiasfrohlich.Kotlin"
+      ]
+    }
+  },
+  "forwardPorts": [8080,5555],
+  "remoteUser": "vscode"
+}
